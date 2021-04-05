@@ -1,4 +1,7 @@
 # Builds the Betaflight firmware
+- task: CMake@1
+  inputs:
+    cmakeArgs: 
 #
 # After building, artifacts are released to a seperate repository.
 #
